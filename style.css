@@ -66,7 +66,15 @@ header {
     width: 100%;
 }
 
+.nav__item {
+    margin-bottom: 1em;
+}
 
+.nav__link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
 
 .nav-toggle {
     cursor: pointer;
@@ -126,11 +134,28 @@ header {
     position: absolute;
 }
 
+.nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
 } 
+
+.nav__list {
+    margin-bottom: 2em;
+}
+
+.nav__link--button {
+    display: inline-block;
+    background-color: white;
+    padding: .25em 1em;
+    border-radius: 5em;
+    color: #136C72
+}
 
 
 .logo {
